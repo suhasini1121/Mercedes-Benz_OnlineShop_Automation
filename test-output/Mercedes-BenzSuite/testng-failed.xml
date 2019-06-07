@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Mercedes-BenzSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.mercedes.benz.tests.EndtoEnd_TC1">
+        <methods>
+          <include name="quit"/>
+          <include name="endtoEnd_TC1" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- com.mercedes.benz.tests.EndtoEnd_TC1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Mercedes-BenzSuite] -->

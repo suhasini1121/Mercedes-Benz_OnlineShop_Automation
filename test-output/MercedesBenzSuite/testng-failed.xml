@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MercedesBenzSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OnlineShopTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.mercedes.benz.tests.EndtoEnd_TC1">
+        <methods>
+          <include name="quit"/>
+          <include name="endtoEnd_TC1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mercedes.benz.tests.EndtoEnd_TC1 -->
+    </classes>
+  </test> <!-- OnlineShopTest(failed) -->
+</suite> <!-- Failed suite [MercedesBenzSuite] -->

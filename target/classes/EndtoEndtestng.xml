@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MercedesBenzSuite">
+  <test thread-count="5" name="OnlineShopTest">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="com.mercedes.benz.tests.EndtoEnd_TC1"/>
+    </classes>
+  </test> <!-- OnlineShopTest -->
+</suite> <!-- MercedesBenzSuite -->
